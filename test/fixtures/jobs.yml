@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: 
+  date_applied: 2016-12-31
+  status: MyString
+  feedback: MyString
+  outcome: MyString
+
+two:
+  title: 
+  date_applied: 2016-12-31
+  status: MyString
+  feedback: MyString
+  outcome: MyString
