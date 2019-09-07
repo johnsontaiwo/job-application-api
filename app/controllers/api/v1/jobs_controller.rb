@@ -1,4 +1,4 @@
- require 'pry'
+ # require 'pry'
 class Api::V1::JobsController < ApplicationController
 
   before_action :find_user, except: [:show, :destroy]
@@ -14,7 +14,7 @@ class Api::V1::JobsController < ApplicationController
   end
       
   def create
-    job = get_current_user.job.build(job_params)
+    job = Job.create(job_params)
     if job.save
     render json: job
     else
